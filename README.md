@@ -68,6 +68,9 @@ Below is a brief overview of each service:
    - **Role**: API Gateway.
    - **Responsibilities**: Routes incoming requests to the appropriate services, handles cross-cutting concerns like authentication and rate limiting.
    - **Technologies**: Spring Cloud Gateway, Resilience4j.
+   - **Circuit Breakers**: For more resilience and adaptability.
+
+     ![image](https://github.com/user-attachments/assets/3d176185-96dc-4c98-8fba-f31e8e581ecf)
 
 ### 3. **registry-service**
    - **Role**: Service discovery.
