@@ -70,7 +70,7 @@ Below is a brief overview of each service:
    - **Technologies**: Spring Cloud Gateway, Resilience4j.
    - **Circuit Breakers**: For more resilience and adaptability.
 
-     ![image](https://github.com/user-attachments/assets/3d176185-96dc-4c98-8fba-f31e8e581ecf)
+     ![Screenshot (250)](https://github.com/user-attachments/assets/753fa178-1f3f-4c8a-9ac5-15d789404eee)
 
 ### 3. **registry-service**
    - **Role**: Service discovery.
