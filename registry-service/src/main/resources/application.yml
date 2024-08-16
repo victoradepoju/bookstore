@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: registry-service
+  config:
+    import: "optional:configserver:"
+  cloud:
+    config:
+      uri: http://localhost:8200
+      name: registry-service
+      label: main
+      enabled: false
+server:
+  port: 8761

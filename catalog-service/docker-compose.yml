@@ -1,0 +1,23 @@
+services:
+  postgres:
+    container_name: catalog-service
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      PGDATA: /var/lib/postgresql/data
+      POSTGRES_DB: polardb
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5432:5432
+    networks:
+      - bookstore
+    restart: unless-stopped
+
+networks:
+  bookstore:
+    driver: bridge
+volumes:
+  postgres:
+    driver: local
