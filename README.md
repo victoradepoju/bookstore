@@ -96,6 +96,11 @@ Below is a brief overview of each service:
 
 The `notification-service` uses RabbitMQ for messaging. It subscribes to events like `order-accepted` and `order-notified`, processes these events, and sends notifications accordingly.
 
+![Screenshot (248)](https://github.com/user-attachments/assets/5138dc09-837f-490c-b938-c7e0f09d05a4)
+
+
+![Screenshot (247)](https://github.com/user-attachments/assets/f1347ac2-d9ee-4c9a-ad31-31c7993bfd8a)
+
 - **Stream Bindings**:
   - The service is configured to consume and produce messages to RabbitMQ using Spring Cloud Stream. Below is a basic configuration:
   
@@ -177,12 +182,3 @@ Feel free to contribute by submitting a pull request or reporting issues. For ma
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-![Screenshot (249)](https://github.com/user-attachments/assets/03d4a1cc-68f9-49be-99f4-5354e80f15f2)
-
-
-![Screenshot (248)](https://github.com/user-attachments/assets/5138dc09-837f-490c-b938-c7e0f09d05a4)
-
-
-![Screenshot (247)](https://github.com/user-attachments/assets/f1347ac2-d9ee-4c9a-ad31-31c7993bfd8a)
