@@ -53,7 +53,11 @@ This project adheres to several 12-Factor principles, which are key to building 
 
 ## Microservices Architecture
 
-This project follows a microservices architecture, where each service is a self-contained unit responsible for a specific business capability. Services communicate via RESTful APIs or messaging queues, enabling loose coupling and independent scalability. Below is a brief overview of each service:
+This project follows a microservices architecture, where each service is a self-contained unit responsible for a specific business capability. Services communicate via RESTful APIs or messaging queues, enabling loose coupling and independent scalability. 
+
+![Screenshot (249)](https://github.com/user-attachments/assets/03d4a1cc-68f9-49be-99f4-5354e80f15f2)
+
+Below is a brief overview of each service:
 
 ### 1. **config-service**
    - **Role**: Centralized configuration management.
